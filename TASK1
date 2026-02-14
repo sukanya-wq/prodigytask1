@@ -1,0 +1,45 @@
+TASK1 : 🚀 Implemented Text Generation using GPT-2 (Generative AI)
+Excited to share that I successfully implemented a Text Generation model using GPT-2, a transformer-based pre-trained language model.
+For this task, I:
+Used a pre-trained GPT-2 model
+Generated coherent text based on custom prompts
+Experimented with parameters like temperature and max_length
+Evaluated output quality and contextual relevance
+
+
+CODE:
+pip install transformers
+from transformers import pipeline
+
+generator = pipeline("text-generation", model="gpt2")
+
+result = generator("Artificial Intelligence is", max_length=50, num_return_sequences=1)
+
+print(result[0]['generated_text'])
+
+SAMPLE OUTPUT:
+Prompt: The future of AI
+Output: The future of AI has been a topic of debate for years. The key to overcoming this is to develop tools to help humans with the problem. These include computer vision, machine learning, machine learning AI, and the human brain.
+
+In the past decade, the technology has been used to develop new technologies and to provide information for human needs. AI and robotics are two of the most significant aspects of this technology.
+
+AI has many different uses. The most important is to help people to understand, understand, and make decisions based on data. This is why it is important to have human-like minds using AI to solve problems.
+
+Human-like minds are especially important for solving problems that are complex and difficult. Human-like minds allow them to solve complex problems that are difficult to solve by using language, reasoning, and other means.
+
+By using natural intelligence, human-like minds can help to solve the human-related problems. By using natural intelligence, human-like minds can help solve humans-related problems.
+
+In the beginning, natural intelligence could not be used to solve problems because it was only used to solve problems that were difficult to solve. In the future, natural intelligence will be used to solve problems that are difficult to solve by using language,
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Both `max_new_tokens` (=256) and `max_length`(=40) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+Prompt: Machine learning in healthcare
+Output: Machine learning in healthcare.
+
+The research has shown that when paired with an online training app, there's a strong correlation between the effectiveness of neural networks and the quality of life for users.
+
+"If you're a patient who is doing well, how do you know if you're going to perform well? The answer is, 'Oh, I'm going to do well,' " said Dr. Gajewski. "When you put a device in your head, you're going to be able to evaluate the brain in an online manner. And you know what I mean, right?"
+
+Using Google's Watson, researchers have shown that when you're in a conversation with a patient, the patient will learn more about you about your health and your health care.
+
+This is because, as the researchers explain, when patients are told that they're about to be informed about what's going on with their health care, they're more likely to respond in a positive way, even if it's not as good as what they were told.
