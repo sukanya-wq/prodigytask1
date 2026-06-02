@@ -9,7 +9,7 @@ Evaluated output quality and contextual relevance
 
 CODE:
 pip install transformers
-from transformers import pipeline
+
 
 generator = pipeline("text-generation", model="gpt2")
 
