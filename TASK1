@@ -10,7 +10,7 @@ here you go the code
 
 CODE:
 pip install transformers
-from transformers import pipeline
+
 
 generator = pipeline("text-generation", model="gpt2")
 
@@ -44,3 +44,9 @@ The research has shown that when paired with an online training app, there's a s
 Using Google's Watson, researchers have shown that when you're in a conversation with a patient, the patient will learn more about you about your health and your health care.
 
 This is because, as the researchers explain, when patients are told that they're about to be informed about what's going on with their health care, they're more likely to respond in a positive way, even if it's not as good as what they were told.
+
+and there you can get the output
+
+
+example parompt
+ai in healthcare revolution
