@@ -5,7 +5,8 @@ Used a pre-trained GPT-2 model
 Generated coherent text based on custom prompts
 Experimented with parameters like temperature and max_length
 Evaluated output quality and contextual relevance
-
+here you go the code
+gooo
 
 CODE:
 pip install transformers
